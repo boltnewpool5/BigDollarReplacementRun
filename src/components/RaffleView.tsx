@@ -34,8 +34,22 @@ export const RaffleView: React.FC = () => {
     setIsPrizeDrawOpen(true);
   };
 
+  // Filter guides based on prize category requirements
+  const getEligibleGuides = (category: PrizeCategory | null) => {
+    if (!category) return availableGuides;
+    
+    // Special logic for 5th Prize - only Vincy Vijay's team
+    if (category.id === 'iron-box') {
+      return availableGuides.filter(guide => guide.supervisor === 'Vincy Vijay');
+    }
+    
+    // All other prizes can select from all available guides
+    return availableGuides;
+  };
+
   const handleRunRaffle = async () => {
-    if (!selectedCategory || availableGuides.length < selectedCategory.winnerCount) {
+    const eligibleGuides = getEligibleGuides(selectedCategory);
+    if (!selectedCategory || eligibleGuides.length < selectedCategory.winnerCount) {
       return;
     }
 
@@ -274,6 +288,7 @@ export const RaffleView: React.FC = () => {
         availableGuides={availableGuides}
         onSelectPrize={handleSelectPrize}
         existingWinners={winners}
+        getEligibleGuides={getEligibleGuides}
       />
       
       <PrizeDrawModal
@@ -286,10 +301,11 @@ export const RaffleView: React.FC = () => {
         onConfirmDraw={handleRunRaffle}
         isDrawing={isDrawing}
         availableGuides={availableGuides.length}
+        eligibleGuides={getEligibleGuides(selectedCategory).length}
       />
       
       <NameScrolling
-        guides={availableGuides}
+        guides={getEligibleGuides(selectedCategory)}
         isScrolling={isScrolling}
         onComplete={handleScrollingComplete}
         winnerCount={selectedCategory?.winnerCount || 1}

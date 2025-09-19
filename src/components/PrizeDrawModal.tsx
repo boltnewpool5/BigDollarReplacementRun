@@ -10,6 +10,7 @@ interface PrizeDrawModalProps {
   onConfirmDraw: () => void;
   isDrawing: boolean;
   availableGuides: number;
+  eligibleGuides: number;
 }
 
 export const PrizeDrawModal: React.FC<PrizeDrawModalProps> = ({
@@ -18,7 +19,8 @@ export const PrizeDrawModal: React.FC<PrizeDrawModalProps> = ({
   category,
   onConfirmDraw,
   isDrawing,
-  availableGuides
+  availableGuides,
+  eligibleGuides
 }) => {
   if (!isOpen || !category) return null;
 
@@ -95,17 +97,30 @@ export const PrizeDrawModal: React.FC<PrizeDrawModalProps> = ({
                 <p className="font-semibold text-white">{availableGuides}</p>
               </div>
               <div>
+                <p className="text-blue-200">Eligible for This Prize:</p>
+                <p className="font-semibold text-white">{eligibleGuides}</p>
+              </div>
+              <div>
                 <p className="text-blue-200">Draw Type:</p>
                 <p className="font-semibold text-white">Weighted by Tickets</p>
               </div>
             </div>
           </div>
 
+          {/* Special notice for 5th Prize */}
+          {category.id === 'iron-box' && (
+            <div className="bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 rounded-xl p-4 mb-6">
+              <p className="text-blue-200 text-sm font-medium">
+                ℹ️ Special Rule: This prize is exclusively for guides supervised by <span className="font-bold text-white">Vincy Vijay</span>
+              </p>
+            </div>
+          )}
+
           {/* Warning if not enough guides */}
-          {availableGuides < category.winnerCount && (
+          {eligibleGuides < category.winnerCount && (
             <div className="bg-red-500/20 backdrop-blur-sm border border-red-400/30 rounded-xl p-4 mb-6">
               <p className="text-red-200 text-sm font-medium">
-                ⚠️ Warning: Only {availableGuides} guides available, but {category.winnerCount} winners needed for this category.
+                ⚠️ Warning: Only {eligibleGuides} eligible guides available, but {category.winnerCount} winners needed for this category.
               </p>
             </div>
           )}
@@ -121,7 +136,7 @@ export const PrizeDrawModal: React.FC<PrizeDrawModalProps> = ({
             
             <button
               onClick={onConfirmDraw}
-              disabled={isDrawing || availableGuides < category.winnerCount}
+              disabled={isDrawing || eligibleGuides < category.winnerCount}
               className={`flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r ${category.gradient} text-white rounded-full font-bold hover:opacity-90 focus:ring-2 focus:ring-white/50 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 shadow-lg`}
             >
               {isDrawing ? (

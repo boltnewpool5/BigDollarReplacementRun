@@ -10,6 +10,7 @@ interface PrizeSelectionModalProps {
   availableGuides: Guide[];
   onSelectPrize: (category: PrizeCategory) => void;
   existingWinners: any[];
+  getEligibleGuides: (category: PrizeCategory) => Guide[];
 }
 
 export const PrizeSelectionModal: React.FC<PrizeSelectionModalProps> = ({
@@ -17,7 +18,8 @@ export const PrizeSelectionModal: React.FC<PrizeSelectionModalProps> = ({
   onClose,
   availableGuides,
   onSelectPrize,
-  existingWinners
+  existingWinners,
+  getEligibleGuides
 }) => {
   if (!isOpen) return null;
 
@@ -83,6 +85,7 @@ export const PrizeSelectionModal: React.FC<PrizeSelectionModalProps> = ({
             {prizeCategories.map((category, index) => {
               const categoryWinners = getWinnersForCategory(category.id);
               const isCompleted = categoryWinners.length >= category.winnerCount;
+              const eligibleGuides = getEligibleGuides(category);
               
               return (
                 <motion.div
@@ -93,9 +96,11 @@ export const PrizeSelectionModal: React.FC<PrizeSelectionModalProps> = ({
                   className={`relative overflow-hidden rounded-2xl border-2 transition-all duration-300 ${
                     isCompleted 
                       ? 'border-green-400/50 bg-green-500/20' 
-                      : 'border-white/30 bg-white/10 hover:bg-white/20 hover:border-white/50 cursor-pointer transform hover:scale-105'
+                      : eligibleGuides.length >= category.winnerCount
+                        ? 'border-white/30 bg-white/10 hover:bg-white/20 hover:border-white/50 cursor-pointer transform hover:scale-105'
+                        : 'border-red-400/50 bg-red-500/10 cursor-not-allowed opacity-75'
                   }`}
-                  onClick={() => !isCompleted && onSelectPrize(category)}
+                  onClick={() => !isCompleted && eligibleGuides.length >= category.winnerCount && onSelectPrize(category)}
                 >
                   {/* Prize Image */}
                   <div className="relative h-48 overflow-hidden">
@@ -122,6 +127,18 @@ export const PrizeSelectionModal: React.FC<PrizeSelectionModalProps> = ({
                     <h3 className="text-xl font-bold text-white mb-2">{category.name}</h3>
                     <p className="text-blue-200 text-sm mb-4">{category.description}</p>
                     
+                    {/* Special notice for 5th Prize */}
+                    {category.id === 'iron-box' && (
+                      <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-3 mb-4 border border-blue-400/30">
+                        <p className="text-blue-200 text-xs">
+                          <span className="font-semibold">Special Rule:</span> Only for Vincy Vijay's team
+                        </p>
+                        <p className="text-white text-xs font-medium">
+                          Eligible: {eligibleGuides.length} guides
+                        </p>
+                      </div>
+                    )}
+                    
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-4">
                         <div className="text-center">
@@ -133,14 +150,16 @@ export const PrizeSelectionModal: React.FC<PrizeSelectionModalProps> = ({
                         <div className="text-center">
                           <p className="text-xs text-blue-200">Status</p>
                           <p className={`text-sm font-semibold ${
-                            isCompleted ? 'text-green-300' : 'text-yellow-300'
+                            isCompleted ? 'text-green-300' : 
+                            eligibleGuides.length >= category.winnerCount ? 'text-yellow-300' : 'text-red-300'
                           }`}>
-                            {isCompleted ? 'Complete' : 'Pending'}
+                            {isCompleted ? 'Complete' : 
+                             eligibleGuides.length >= category.winnerCount ? 'Pending' : 'Not Enough Eligible'}
                           </p>
                         </div>
                       </div>
                       
-                      {!isCompleted && (
+                      {!isCompleted && eligibleGuides.length >= category.winnerCount && (
                         <motion.button
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
