@@ -1,0 +1,1342 @@
+[
+  {
+    "id": 1,
+    "name": "Pasunuti Manasa",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 67.39,
+    "nrpc": 6.96,
+    "refundPercent": 9,
+    "totalTickets": 37
+  },
+  {
+    "id": 2,
+    "name": "Sudama Yadav",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 72.00,
+    "nrpc": 9.45,
+    "refundPercent": 0,
+    "totalTickets": 24
+  },
+  {
+    "id": 3,
+    "name": "Karthik Jakka",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 76.09,
+    "nrpc": 8.88,
+    "refundPercent": 0,
+    "totalTickets": 16
+  },
+  {
+    "id": 4,
+    "name": "Panugulla Kumar Goud",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 66.67,
+    "nrpc": 11.38,
+    "refundPercent": 0,
+    "totalTickets": 15
+  },
+  {
+    "id": 5,
+    "name": "Avinash K",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 72.13,
+    "nrpc": 23.23,
+    "refundPercent": 0,
+    "totalTickets": 13
+  },
+  {
+    "id": 6,
+    "name": "Mohammed Naseer",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 81.48,
+    "nrpc": 21.72,
+    "refundPercent": 3,
+    "totalTickets": 10
+  },
+  {
+    "id": 7,
+    "name": "Aravindhan Elumalai",
+    "supervisor": "Shaik Shoaib",
+    "department": "INTL Chat Productivity",
+    "nps": 66.18,
+    "nrpc": 35.93,
+    "refundPercent": 0,
+    "totalTickets": 10
+  },
+  {
+    "id": 8,
+    "name": "Bandari Vinay Kumar",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 65.06,
+    "nrpc": 10.66,
+    "refundPercent": 0,
+    "totalTickets": 23
+  },
+  {
+    "id": 9,
+    "name": "Medari Sowmya",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 70.18,
+    "nrpc": 18.58,
+    "refundPercent": 0,
+    "totalTickets": 16
+  },
+  {
+    "id": 10,
+    "name": "Akshita Yerram",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 66.94,
+    "nrpc": 43.56,
+    "refundPercent": 2,
+    "totalTickets": 11
+  },
+  {
+    "id": 11,
+    "name": "Chandu Kumar",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 68.24,
+    "nrpc": 107.24,
+    "refundPercent": 0,
+    "totalTickets": 7
+  },
+  {
+    "id": 12,
+    "name": "Mohmmad Uddin",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 76.42,
+    "nrpc": 42.03,
+    "refundPercent": 0,
+    "totalTickets": 6
+  },
+  {
+    "id": 13,
+    "name": "Jadhav Sushanth",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 74.63,
+    "nrpc": 79.85,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 14,
+    "name": "Satya Kandi",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 72.07,
+    "nrpc": 109.92,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 15,
+    "name": "Punnala Mallikarjun",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 81.69,
+    "nrpc": 52.38,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 16,
+    "name": "Akanacheti Anil",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 73.13,
+    "nrpc": 64.16,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 17,
+    "name": "Javvaji Manikumar Reddy",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 66.94,
+    "nrpc": 47.60,
+    "refundPercent": 1,
+    "totalTickets": 5
+  },
+  {
+    "id": 18,
+    "name": "Akhila Boda",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 80.00,
+    "nrpc": 51.98,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 19,
+    "name": "Pawar Swathi",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 77.50,
+    "nrpc": 121.37,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 20,
+    "name": "Halli Santhosh",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 65.18,
+    "nrpc": 49.27,
+    "refundPercent": 2,
+    "totalTickets": 5
+  },
+  {
+    "id": 21,
+    "name": "Ravi Kumar",
+    "supervisor": "Jose Sanjo",
+    "department": "INTL Chat HV",
+    "nps": 67.24,
+    "nrpc": 87.73,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 22,
+    "name": "Karumanchi Sandeep Raju",
+    "supervisor": "Sangeeta Bhuyan",
+    "department": "INTL Chat HV",
+    "nps": 81.82,
+    "nrpc": 49.68,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 23,
+    "name": "Syed Uddin",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Hosting",
+    "nps": 77.23,
+    "nrpc": 43.18,
+    "refundPercent": 0,
+    "totalTickets": 22
+  },
+  {
+    "id": 24,
+    "name": "Mohammad Irfan",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 77.94,
+    "nrpc": 36.93,
+    "refundPercent": 1,
+    "totalTickets": 15
+  },
+  {
+    "id": 25,
+    "name": "Aleem Qureshi",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 67.53,
+    "nrpc": 37.30,
+    "refundPercent": 7,
+    "totalTickets": 14
+  },
+  {
+    "id": 26,
+    "name": "Deepthi Pathuri",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Hosting",
+    "nps": 76.04,
+    "nrpc": 45.11,
+    "refundPercent": 0,
+    "totalTickets": 12
+  },
+  {
+    "id": 27,
+    "name": "Syed Adeeb",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 86.15,
+    "nrpc": 48.83,
+    "refundPercent": 8,
+    "totalTickets": 11
+  },
+  {
+    "id": 28,
+    "name": "Sahu Sanjay",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Hosting",
+    "nps": 75.00,
+    "nrpc": 34.63,
+    "refundPercent": 4,
+    "totalTickets": 11
+  },
+  {
+    "id": 29,
+    "name": "Mir Ahmed Ali",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 67.50,
+    "nrpc": 94.68,
+    "refundPercent": 1,
+    "totalTickets": 11
+  },
+  {
+    "id": 30,
+    "name": "N Sridar",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 77.78,
+    "nrpc": 29.26,
+    "refundPercent": 5,
+    "totalTickets": 10
+  },
+  {
+    "id": 31,
+    "name": "Kasula Shiva Kumar Goud",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 75.00,
+    "nrpc": 7.99,
+    "refundPercent": 0,
+    "totalTickets": 10
+  },
+  {
+    "id": 32,
+    "name": "Riyasath Ali Khan",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 77.91,
+    "nrpc": 44.14,
+    "refundPercent": 0,
+    "totalTickets": 10
+  },
+  {
+    "id": 33,
+    "name": "Ramagiri Nikhil",
+    "supervisor": "Abdul Rahman",
+    "department": "INTL Chat Hosting",
+    "nps": 88.46,
+    "nrpc": 29.00,
+    "refundPercent": 0,
+    "totalTickets": 10
+  },
+  {
+    "id": 34,
+    "name": "Arun Singasani",
+    "supervisor": "Abdul Rahman",
+    "department": "INTL Chat Hosting",
+    "nps": 65.79,
+    "nrpc": 28.10,
+    "refundPercent": 0,
+    "totalTickets": 7
+  },
+  {
+    "id": 35,
+    "name": "P Pavan Kalyan",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Hosting",
+    "nps": 85.48,
+    "nrpc": 65.49,
+    "refundPercent": 1,
+    "totalTickets": 6
+  },
+  {
+    "id": 36,
+    "name": "Dipranjan Handique",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 77.78,
+    "nrpc": 41.33,
+    "refundPercent": 13,
+    "totalTickets": 5
+  },
+  {
+    "id": 37,
+    "name": "Sayed Basha",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Hosting",
+    "nps": 74.32,
+    "nrpc": 72.54,
+    "refundPercent": 3,
+    "totalTickets": 5
+  },
+  {
+    "id": 38,
+    "name": "Sahaja Katrimala",
+    "supervisor": "Janga Srikanth",
+    "department": "INTL Chat Hosting",
+    "nps": 66.67,
+    "nrpc": 21.01,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 39,
+    "name": "Muppidi Soumya",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 68.83,
+    "nrpc": 8.25,
+    "refundPercent": 0,
+    "totalTickets": 40
+  },
+  {
+    "id": 40,
+    "name": "Macherla Bhargavi",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 75.00,
+    "nrpc": 11.62,
+    "refundPercent": 2,
+    "totalTickets": 29
+  },
+  {
+    "id": 41,
+    "name": "Gudipati Sreelatha",
+    "supervisor": "Gottemukkula Prashanth Chary",
+    "department": "INTL Chat General",
+    "nps": 81.48,
+    "nrpc": 10.99,
+    "refundPercent": 4,
+    "totalTickets": 28
+  },
+  {
+    "id": 42,
+    "name": "P J V Pawan Kumar",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 74.07,
+    "nrpc": 14.68,
+    "refundPercent": 3,
+    "totalTickets": 27
+  },
+  {
+    "id": 43,
+    "name": "Kondamedi Nithin",
+    "supervisor": "Abdul Rahman",
+    "department": "INTL Chat General",
+    "nps": 78.18,
+    "nrpc": 9.01,
+    "refundPercent": 0,
+    "totalTickets": 26
+  },
+  {
+    "id": 44,
+    "name": "Saganti Nikhitha",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 67.80,
+    "nrpc": 7.69,
+    "refundPercent": 0,
+    "totalTickets": 26
+  },
+  {
+    "id": 45,
+    "name": "Nookala Naga Naveen",
+    "supervisor": "Gottemukkula Prashanth Chary",
+    "department": "INTL Chat General",
+    "nps": 77.32,
+    "nrpc": 11.81,
+    "refundPercent": 0,
+    "totalTickets": 25
+  },
+  {
+    "id": 46,
+    "name": "Kotagiri Sai Raj",
+    "supervisor": "Gottemukkula Prashanth Chary",
+    "department": "INTL Chat General",
+    "nps": 79.41,
+    "nrpc": 15.64,
+    "refundPercent": 0,
+    "totalTickets": 25
+  },
+  {
+    "id": 47,
+    "name": "Kusuma Manasa",
+    "supervisor": "Abdul Rahman",
+    "department": "INTL Chat General",
+    "nps": 67.50,
+    "nrpc": 9.66,
+    "refundPercent": 3,
+    "totalTickets": 24
+  },
+  {
+    "id": 48,
+    "name": "Kolariya Sharma",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 74.07,
+    "nrpc": 7.30,
+    "refundPercent": 0,
+    "totalTickets": 23
+  },
+  {
+    "id": 49,
+    "name": "Loukya Deshaboina",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 72.15,
+    "nrpc": 18.45,
+    "refundPercent": 1,
+    "totalTickets": 23
+  },
+  {
+    "id": 50,
+    "name": "Somnath Mitra",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 71.64,
+    "nrpc": 10.17,
+    "refundPercent": 3,
+    "totalTickets": 22
+  },
+  {
+    "id": 51,
+    "name": "Veeramreddy kumar",
+    "supervisor": "Gottemukkula Prashanth Chary",
+    "department": "INTL Chat General",
+    "nps": 76.70,
+    "nrpc": 17.91,
+    "refundPercent": 1,
+    "totalTickets": 20
+  },
+  {
+    "id": 52,
+    "name": "Chandrashekhar Nanneboina",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 74.71,
+    "nrpc": 18.30,
+    "refundPercent": 0,
+    "totalTickets": 20
+  },
+  {
+    "id": 53,
+    "name": "Harikumar Uppunuthula",
+    "supervisor": "Abdul Rahman",
+    "department": "INTL Chat General",
+    "nps": 75.00,
+    "nrpc": 15.74,
+    "refundPercent": 0,
+    "totalTickets": 19
+  },
+  {
+    "id": 54,
+    "name": "Likhitha Nalke",
+    "supervisor": "Abdul Rahman",
+    "department": "INTL Chat General",
+    "nps": 75.38,
+    "nrpc": 7.96,
+    "refundPercent": 0,
+    "totalTickets": 18
+  },
+  {
+    "id": 55,
+    "name": "Gopina Nikhil",
+    "supervisor": "Gottemukkula Prashanth Chary",
+    "department": "INTL Chat General",
+    "nps": 68.70,
+    "nrpc": 12.24,
+    "refundPercent": 0,
+    "totalTickets": 13
+  },
+  {
+    "id": 56,
+    "name": "Jella Tharun",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 72.63,
+    "nrpc": 10.59,
+    "refundPercent": 3,
+    "totalTickets": 13
+  },
+  {
+    "id": 57,
+    "name": "Pasha Mohd",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 69.64,
+    "nrpc": 6.79,
+    "refundPercent": 0,
+    "totalTickets": 8
+  },
+  {
+    "id": 58,
+    "name": "Manasa Patra",
+    "supervisor": "Palem Chandrasekhar",
+    "department": "INTL Chat General",
+    "nps": 86.11,
+    "nrpc": 6.43,
+    "refundPercent": 0,
+    "totalTickets": 7
+  },
+  {
+    "id": 59,
+    "name": "Mohammed Faiz Uddin",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Billing",
+    "nps": 67.11,
+    "nrpc": 37.16,
+    "refundPercent": 0,
+    "totalTickets": 36
+  },
+  {
+    "id": 60,
+    "name": "Christy Golkonda",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Billing",
+    "nps": 66.67,
+    "nrpc": 9.61,
+    "refundPercent": 0,
+    "totalTickets": 16
+  },
+  {
+    "id": 61,
+    "name": "KARTHIK AKARAPU",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Billing",
+    "nps": 89.47,
+    "nrpc": 14.98,
+    "refundPercent": 0,
+    "totalTickets": 15
+  },
+  {
+    "id": 62,
+    "name": "Keshav Manda",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Billing",
+    "nps": 66.29,
+    "nrpc": 7.38,
+    "refundPercent": 2,
+    "totalTickets": 10
+  },
+  {
+    "id": 63,
+    "name": "Rajashekaran Venkatesh",
+    "supervisor": "Kasamollu Kalyan Chetty",
+    "department": "INTL Chat Billing",
+    "nps": 81.82,
+    "nrpc": 25.90,
+    "refundPercent": 0,
+    "totalTickets": 7
+  },
+  {
+    "id": 64,
+    "name": "Vasavi Katakam",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat Proactive",
+    "nps": 68.52,
+    "nrpc": 6.22,
+    "refundPercent": 0,
+    "totalTickets": 30
+  },
+  {
+    "id": 65,
+    "name": "Banothu Vamshi Vardhan",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat Proactive",
+    "nps": 66.67,
+    "nrpc": 8.95,
+    "refundPercent": 5,
+    "totalTickets": 30
+  },
+  {
+    "id": 66,
+    "name": "Prashanth Byram",
+    "supervisor": "Shanthi Priya Chintha",
+    "department": "India Chat Proactive",
+    "nps": 73.91,
+    "nrpc": 8.33,
+    "refundPercent": 0,
+    "totalTickets": 29
+  },
+  {
+    "id": 67,
+    "name": "Poojitha, Avula",
+    "supervisor": "Atree Chaudhuri",
+    "department": "India Chat Proactive",
+    "nps": 92.31,
+    "nrpc": 7.08,
+    "refundPercent": 0,
+    "totalTickets": 21
+  },
+  {
+    "id": 68,
+    "name": "Manish Saini",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat Proactive",
+    "nps": 69.39,
+    "nrpc": 11.81,
+    "refundPercent": 3,
+    "totalTickets": 18
+  },
+  {
+    "id": 69,
+    "name": "Milancy Thallapally",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat Proactive",
+    "nps": 88.52,
+    "nrpc": 16.60,
+    "refundPercent": 0,
+    "totalTickets": 17
+  },
+  {
+    "id": 70,
+    "name": "Radhika",
+    "supervisor": "Atree Chaudhuri",
+    "department": "India Chat Proactive",
+    "nps": 70.73,
+    "nrpc": 6.33,
+    "refundPercent": 0,
+    "totalTickets": 14
+  },
+{
+    "id": 71,
+    "name": "Mahitha Bollavaram",
+    "supervisor": "RAHUL RADHAVARAM",
+    "department": "India Chat OOPR",
+    "nps": 81.48,
+    "nrpc": 6.23,
+    "refundPercent": 0,
+    "totalTickets": 34
+  },
+  {
+    "id": 72,
+    "name": "Rakesh Mulukuntla",
+    "supervisor": "RAHUL RADHAVARAM",
+    "department": "India Chat OOPR",
+    "nps": 71.43,
+    "nrpc": 12.21,
+    "refundPercent": 0,
+    "totalTickets": 22
+  },
+  {
+    "id": 73,
+    "name": "Divya Bommasani",
+    "supervisor": "RAHUL RADHAVARAM",
+    "department": "India Chat OOPR",
+    "nps": 82.00,
+    "nrpc": 8.64,
+    "refundPercent": 0,
+    "totalTickets": 17
+  },
+  {
+    "id": 74,
+    "name": "NALUVALA UDAY KIRAN",
+    "supervisor": "RAHUL RADHAVARAM",
+    "department": "India Chat OOPR",
+    "nps": 73.68,
+    "nrpc": 6.09,
+    "refundPercent": 0,
+    "totalTickets": 8
+  },
+  {
+    "id": 75,
+    "name": "Saketh Burra",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat",
+    "nps": 76.77,
+    "nrpc": 6.26,
+    "refundPercent": 1,
+    "totalTickets": 41
+  },
+  {
+    "id": 76,
+    "name": "Akhil Musinipally",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 71.43,
+    "nrpc": 11.96,
+    "refundPercent": 3,
+    "totalTickets": 40
+  },
+  {
+    "id": 77,
+    "name": "Swapna Sabbani",
+    "supervisor": "Atree Chaudhuri",
+    "department": "India Chat",
+    "nps": 81.05,
+    "nrpc": 8.61,
+    "refundPercent": 0,
+    "totalTickets": 37
+  },
+  {
+    "id": 78,
+    "name": "Shaga Vishishta",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat",
+    "nps": 74.07,
+    "nrpc": 15.60,
+    "refundPercent": 0,
+    "totalTickets": 35
+  },
+  {
+    "id": 79,
+    "name": "Karthik Nimma",
+    "supervisor": "Shanthi Priya Chintha",
+    "department": "India Chat",
+    "nps": 72.84,
+    "nrpc": 7.70,
+    "refundPercent": 0,
+    "totalTickets": 33
+  },
+  {
+    "id": 80,
+    "name": "Guduru Keerthana",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat",
+    "nps": 68.33,
+    "nrpc": 9.20,
+    "refundPercent": 0,
+    "totalTickets": 33
+  },
+  {
+    "id": 81,
+    "name": "Ganesh Chitakunta Vataram",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 66.67,
+    "nrpc": 8.58,
+    "refundPercent": 0,
+    "totalTickets": 26
+  },
+  {
+    "id": 82,
+    "name": "Yashwanth Bairoju",
+    "supervisor": "Shanthi Priya Chintha",
+    "department": "India Chat",
+    "nps": 80.20,
+    "nrpc": 6.80,
+    "refundPercent": 0,
+    "totalTickets": 25
+  },
+  {
+    "id": 83,
+    "name": "Padma Karthik Kumar",
+    "supervisor": "Shanthi Priya Chintha",
+    "department": "India Chat",
+    "nps": 75.00,
+    "nrpc": 8.40,
+    "refundPercent": 1,
+    "totalTickets": 24
+  },
+  {
+    "id": 84,
+    "name": "Revanth Gadipelli",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat",
+    "nps": 70.83,
+    "nrpc": 14.93,
+    "refundPercent": 0,
+    "totalTickets": 23
+  },
+  {
+    "id": 85,
+    "name": "bura arun kumar",
+    "supervisor": "Shanthi Priya Chintha",
+    "department": "India Chat",
+    "nps": 77.30,
+    "nrpc": 8.38,
+    "refundPercent": 0,
+    "totalTickets": 17
+  },
+  {
+    "id": 86,
+    "name": "Deepthi, Mosam",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 65.38,
+    "nrpc": 8.96,
+    "refundPercent": 1,
+    "totalTickets": 15
+  },
+  {
+    "id": 87,
+    "name": "Divya Rayapuram",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 73.53,
+    "nrpc": 11.11,
+    "refundPercent": 0,
+    "totalTickets": 14
+  },
+  {
+    "id": 88,
+    "name": "PITTALA NAVEENA",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 73.33,
+    "nrpc": 6.75,
+    "refundPercent": 0,
+    "totalTickets": 13
+  },
+  {
+    "id": 89,
+    "name": "Harshith Kotra",
+    "supervisor": "Shanthi Priya Chintha",
+    "department": "India Chat",
+    "nps": 84.95,
+    "nrpc": 6.50,
+    "refundPercent": 0,
+    "totalTickets": 13
+  },
+  {
+    "id": 90,
+    "name": "Srija Bethi",
+    "supervisor": "Atree Chaudhuri",
+    "department": "India Chat",
+    "nps": 75.00,
+    "nrpc": 6.29,
+    "refundPercent": 2,
+    "totalTickets": 12
+  },
+  {
+    "id": 91,
+    "name": "Gorre Ram Lahari",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 70.18,
+    "nrpc": 14.21,
+    "refundPercent": 0,
+    "totalTickets": 11
+  },
+  {
+    "id": 92,
+    "name": "Udaykrishna Kondameedi",
+    "supervisor": "Atree Chaudhuri",
+    "department": "India Chat",
+    "nps": 96.30,
+    "nrpc": 6.36,
+    "refundPercent": 4,
+    "totalTickets": 10
+  },
+  {
+    "id": 93,
+    "name": "Akhila Bhukya",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 72.97,
+    "nrpc": 11.35,
+    "refundPercent": 6,
+    "totalTickets": 9
+  },
+  {
+    "id": 94,
+    "name": "Tharun Arrapedhi",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat",
+    "nps": 78.49,
+    "nrpc": 10.63,
+    "refundPercent": 0,
+    "totalTickets": 7
+  },
+  {
+    "id": 95,
+    "name": "Shaheera Kounain",
+    "supervisor": "Gariganti Prashanth Kumar",
+    "department": "India Chat",
+    "nps": 72.73,
+    "nrpc": 6.45,
+    "refundPercent": 0,
+    "totalTickets": 6
+  },
+  {
+    "id": 96,
+    "name": "Kuchana Ankitha",
+    "supervisor": "Atree Chaudhuri",
+    "department": "India Chat",
+    "nps": 78.95,
+    "nrpc": 6.48,
+    "refundPercent": 1,
+    "totalTickets": 6
+  },
+  {
+    "id": 97,
+    "name": "Suryaprakash Gaddam",
+    "supervisor": "Vennam Srikanth",
+    "department": "India Chat",
+    "nps": 74.42,
+    "nrpc": 8.54,
+    "refundPercent": 0,
+    "totalTickets": 5
+  },
+  {
+    "id": 98,
+    "name": "Pothuraju Rajesh",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 69.57,
+    "nrpc": 27.97,
+    "refundPercent": 3,
+    "totalTickets": 42
+  },
+  {
+    "id": 99,
+    "name": "Mohammed Khaleeluddin",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 78.05,
+    "nrpc": 20.75,
+    "refundPercent": 0,
+    "totalTickets": 36
+  },
+  {
+    "id": 100,
+    "name": "Adarsh Kanchi",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 71.64,
+    "nrpc": 37.03,
+    "refundPercent": 1,
+    "totalTickets": 32
+  },
+  {
+    "id": 101,
+    "name": "Mohammed Azam",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 66.91,
+    "nrpc": 11.56,
+    "refundPercent": 0,
+    "totalTickets": 32
+  },
+  {
+    "id": 102,
+    "name": "Rahamatulla Shaik",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 66.46,
+    "nrpc": 14.72,
+    "refundPercent": 8,
+    "totalTickets": 31
+  },
+  {
+    "id": 103,
+    "name": "Mamatha Pedduri",
+    "supervisor": "Mokirala Sangeetha",
+    "department": "APAC",
+    "nps": 71.96,
+    "nrpc": 23.98,
+    "refundPercent": 0,
+    "totalTickets": 31
+  },
+  {
+    "id": 104,
+    "name": "Bolle Prakash",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 81.82,
+    "nrpc": 25.81,
+    "refundPercent": 4,
+    "totalTickets": 28
+  },
+  {
+    "id": 105,
+    "name": "Vivek Anand Sahu",
+    "supervisor": "Mokirala Sangeetha",
+    "department": "APAC",
+    "nps": 69.40,
+    "nrpc": 22.64,
+    "refundPercent": 0,
+    "totalTickets": 28
+  },
+  {
+    "id": 106,
+    "name": "Azeem Mohd",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 71.13,
+    "nrpc": 48.00,
+    "refundPercent": 1,
+    "totalTickets": 27
+  },
+  {
+    "id": 107,
+    "name": "Tejaswi Matta",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 77.27,
+    "nrpc": 36.10,
+    "refundPercent": 0,
+    "totalTickets": 27
+  },
+  {
+    "id": 108,
+    "name": "Sheema Kulsum",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 84.54,
+    "nrpc": 16.85,
+    "refundPercent": 0,
+    "totalTickets": 24
+  },
+  {
+    "id": 109,
+    "name": "Kannam Reshma",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 67.44,
+    "nrpc": 133.65,
+    "refundPercent": 0,
+    "totalTickets": 23
+  },
+  {
+    "id": 110,
+    "name": "Alex Rajeev",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 72.63,
+    "nrpc": 38.56,
+    "refundPercent": 0,
+    "totalTickets": 23
+  },
+  {
+    "id": 111,
+    "name": "Chintha Swarna",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 66.67,
+    "nrpc": 18.47,
+    "refundPercent": 0,
+    "totalTickets": 23
+  },
+  {
+    "id": 112,
+    "name": "Chellarapu Malathi",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 72.04,
+    "nrpc": 14.24,
+    "refundPercent": 0,
+    "totalTickets": 22
+  },
+  {
+    "id": 113,
+    "name": "Mohammad Mazharuddin",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 78.21,
+    "nrpc": 11.53,
+    "refundPercent": 0,
+    "totalTickets": 22
+  },
+  {
+    "id": 114,
+    "name": "Radhika Chidhurala",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 71.74,
+    "nrpc": 24.82,
+    "refundPercent": 3,
+    "totalTickets": 22
+  },
+  {
+    "id": 115,
+    "name": "Sai Kiran Ithan",
+    "supervisor": "Mokirala Sangeetha",
+    "department": "APAC",
+    "nps": 76.56,
+    "nrpc": 85.58,
+    "refundPercent": 0,
+    "totalTickets": 20
+  },
+  {
+    "id": 116,
+    "name": "Anjali Vaddepally",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 78.90,
+    "nrpc": 13.70,
+    "refundPercent": 0,
+    "totalTickets": 20
+  },
+  {
+    "id": 117,
+    "name": "Saiteja Turupathi",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 80.20,
+    "nrpc": 12.51,
+    "refundPercent": 0,
+    "totalTickets": 20
+  },
+  {
+    "id": 118,
+    "name": "Madgula Navya Sree",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 66.07,
+    "nrpc": 21.50,
+    "refundPercent": 8,
+    "totalTickets": 19
+  },
+  {
+    "id": 119,
+    "name": "Jaber Khan",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 69.44,
+    "nrpc": 28.09,
+    "refundPercent": 0,
+    "totalTickets": 19
+  },
+  {
+    "id": 120,
+    "name": "Mohammad Salman",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 72.07,
+    "nrpc": 129.34,
+    "refundPercent": 0,
+    "totalTickets": 18
+  },
+  {
+    "id": 121,
+    "name": "Boddu Chandana",
+    "supervisor": "Mokirala Sangeetha",
+    "department": "APAC",
+    "nps": 69.86,
+    "nrpc": 24.23,
+    "refundPercent": 2,
+    "totalTickets": 18
+  },
+  {
+    "id": 122,
+    "name": "Moinuddin Fahad",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 65.22,
+    "nrpc": 33.47,
+    "refundPercent": 4,
+    "totalTickets": 14
+  },
+  {
+    "id": 123,
+    "name": "Ramu Padala",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 78.65,
+    "nrpc": 139.25,
+    "refundPercent": 0,
+    "totalTickets": 14
+  },
+  {
+    "id": 124,
+    "name": "Shikari Vishwajith Sah",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 74.03,
+    "nrpc": 13.05,
+    "refundPercent": 0,
+    "totalTickets": 14
+  },
+  {
+    "id": 125,
+    "name": "Rupa Vanguri",
+    "supervisor": "Vincy Vijay",
+    "department": "APAC",
+    "nps": 69.35,
+    "nrpc": 17.68,
+    "refundPercent": 0,
+    "totalTickets": 13
+  },
+  {
+    "id": 126,
+    "name": "Chandana Thallapelli",
+    "supervisor": "Mokirala Sangeetha",
+    "department": "APAC",
+    "nps": 68.63,
+    "nrpc": 23.01,
+    "refundPercent": 0,
+    "totalTickets": 11
+  },
+  {
+    "id": 127,
+    "name": "Bharath Routhu",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 83.70,
+    "nrpc": 25.98,
+    "refundPercent": 0,
+    "totalTickets": 11
+  },
+  {
+    "id": 128,
+    "name": "Adepu Nivas",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 74.60,
+    "nrpc": 17.40,
+    "refundPercent": 0,
+    "totalTickets": 11
+  },
+  {
+    "id": 129,
+    "name": "ARSHIYA BEGUM",
+    "supervisor": "Kotiyal Sunitha",
+    "department": "APAC",
+    "nps": 75.32,
+    "nrpc": 27.64,
+    "refundPercent": 0,
+    "totalTickets": 11
+  },
+  {
+    "id": 130,
+    "name": "Arun Sai Nagabelly",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 69.33,
+    "nrpc": 10.09,
+    "refundPercent": 2,
+    "totalTickets": 10
+  },
+  {
+    "id": 131,
+    "name": "Samudrala Poojitha",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 73.47,
+    "nrpc": 30.79,
+    "refundPercent": 4,
+    "totalTickets": 9
+  },
+  {
+    "id": 132,
+    "name": "Cheruku Ajay",
+    "supervisor": "Mokirala Sangeetha",
+    "department": "APAC",
+    "nps": 68.09,
+    "nrpc": 10.22,
+    "refundPercent": 7,
+    "totalTickets": 8
+  },
+  {
+    "id": 133,
+    "name": "Palla Rithish Kumar",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 74.32,
+    "nrpc": 19.71,
+    "refundPercent": 67,
+    "totalTickets": 7
+  },
+  {
+    "id": 134,
+    "name": "Sayiri Sai Raviteja",
+    "supervisor": "Belde Anish Kumar",
+    "department": "APAC",
+    "nps": 70.67,
+    "nrpc": 6.79,
+    "refundPercent": 0,
+    "totalTickets": 6
+  }
+]
