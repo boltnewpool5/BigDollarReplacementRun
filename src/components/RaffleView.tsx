@@ -41,6 +41,9 @@ export const RaffleView: React.FC = () => {
     // Special logic for 5th Prize - only Vincy Vijay's team
     if (category.id === 'iron-box') {
       return availableGuides.filter(guide => guide.supervisor === 'Vincy Vijay');
+      console.log('Available guides for Iron Box:', eligibleGuides.length);
+      console.log('All supervisors:', [...new Set(availableGuides.map(g => g.supervisor))]);
+      return eligibleGuides;
     }
     
     // All other prizes can select from all available guides
